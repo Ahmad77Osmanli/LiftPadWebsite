@@ -110,12 +110,11 @@ function Icon({ name, className = 'w-8 h-8' }) {
 
 export default function LiftPadWebsite() {
     const [open, setOpen] = useState(false);
-
+    <title>LiftPad</title>
     return (
         <div className="min-h-screen font-Inter text-slate-800 bg-gradient-to-b from-white to-slate-50">
             {/* NAV */}
             <header className="sticky top-0 z-40 backdrop-blur bg-white/60 border-b border-slate-200">
-            <title>LiftPad</title>
                 <div className="container mx-auto px-6 py-4 flex items-center justify-between">
                     <a href="#hero" className="flex items-center gap-3">
                         <div className="p-2 rounded-full bg-slate-900 text-white shadow-md">
