@@ -226,7 +226,7 @@ export default function LiftPadWebsite() {
                                 </div>
                             </div>
 
-                            <div className="mt-6 text-sm text-slate-200">Replace placeholders with a short demo video and images showing code, testing and the lift in action. Judges love real evidence.</div>
+                            // <div className="mt-6 text-sm text-slate-200">Replace placeholders with a short demo video and images showing code, testing and the lift in action. Judges love real evidence.</div>
                         </div>
 
                         <div className="absolute -right-8 -bottom-8 w-40 h-40 rounded-full bg-indigo-50/80 blur-md" aria-hidden />
