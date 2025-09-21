@@ -365,11 +365,11 @@ export default function LiftPadWebsite() {
                             <div className="mt-6 grid grid-cols-1 gap-3 text-sm text-slate-200">
                                 <div className="flex items-center gap-3">
                                     <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 8l7 5 11-7" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                                    <div>demo@liftpad.example</div>
+                                    <div>LiftPad.Company@gmail.com</div>
                                 </div>
                                 <div className="flex items-center gap-3">
                                     <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 16.92V21a1 1 0 0 1-1.08 1 19 19 0 0 1-8.63-3.07A19 19 0 0 1 3.09 6.71 1 1 0 0 1 4 6h4.09a1 1 0 0 1 1 .75c.16.9.45 2.26-.24 3.54-.43.87-.21 1.98.57 2.6l2.2 1.69a12 12 0 0 0 3.48 1.98c.7.22 1.45-.05 1.76-.7l.86-1.89a1 1 0 0 1 .9-.59H20a1 1 0 0 1 1 1z" stroke="currentColor" strokeWidth="0.9" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                                    <div>+994 50 000 0000</div>
+                                    <div>+994 70 352 10 32</div>
                                 </div>
                                 <div className="flex items-center gap-3">
                                     <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 11l9-7 9 7-9 7-9-7z" stroke="currentColor" strokeWidth="0.9" strokeLinecap="round" strokeLinejoin="round"/></svg>
