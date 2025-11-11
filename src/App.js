@@ -67,7 +67,7 @@ export default function LiftPadPro() {
         window.addEventListener('focus', start);
         window.addEventListener('blur', () => { if (autoplayRef.current) clearInterval(autoplayRef.current); });
         return () => { if (autoplayRef.current) clearInterval(autoplayRef.current); window.removeEventListener('focus', start); };
-    }, [visibleCount, carouselAutoplayMs]);
+    }, [visibleCount, carouselAutoplayMs, next]);
 
     // helpers to move carousel
     function next() { if (isAnimating) return; setIsAnimating(true); setCurrentIndex(i => i + 1); }
@@ -85,14 +85,14 @@ export default function LiftPadPro() {
                 // moved to clones after -> snap to real first
                 node.style.transition = 'none';
                 setCurrentIndex(startIndex);
-                const _ = node.offsetHeight; // force reflow (linter-friendly)
+                const _unused = node.offsetHeight; // force reflow (linter-friendly)
                 node.style.transition = '';
             }
             if (currentIndex < startIndex) {
                 // moved to clones before -> snap to last real
                 node.style.transition = 'none';
                 setCurrentIndex(startIndex + n - 1);
-                const _ = node.offsetHeight; // force reflow (linter-friendly)
+                const _unused = node.offsetHeight; // force reflow (linter-friendly)
                 node.style.transition = '';
             }
         }
