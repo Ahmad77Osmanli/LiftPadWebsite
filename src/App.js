@@ -226,7 +226,7 @@ export default function LiftPadPro() {
                                 {[
                                     ['Working Height','Up to 0.7 m (adjustable)'],
                                     ['Max Load','250 kg'],
-                                    ['Drive','Dual 12V brushless motors'],
+                                    ['Drive','Dual 12V motors'],
                                     ['Battery','Li-ion 7200mAh — 6–8 hours'],
                                     ['Sensors','MQ-2, Shock, IMU'],
                                     ['Connectivity','Wi-Fi, LTE (opt), GPS'],
@@ -374,7 +374,7 @@ export default function LiftPadPro() {
                                 {[
                                     ['Working Height', 'Up to 0.7 m (adjustable)'],
                                     ['Max Load', '250 kg (safety factor 2.5)'],
-                                    ['Drive', 'Dual 12V brushless motors, differential steering'],
+                                    ['Drive', 'Dual 12V motors, differential steering'],
                                     ['Battery', 'Li-ion 6000mAh — typical 6–8 hours'],
                                     ['Sensors', 'MQ-2 Gas, Shock, Limit switches, IMU'],
                                     ['Connectivity', 'Wi-Fi, LTE (optional), GPS, BLE'],
