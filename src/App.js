@@ -19,7 +19,7 @@ export default function LiftPadPro() {
     const [showCart, setShowCart] = useState(false);
 
     // ---------------- CONFIG ----------------
-    const GALLERY = ['/LiftPad_Picture_0.png','/LiftPad_Picture_1.png','/LiftPad_Picture_2.png','/LiftPad_Picture_3.jpg','/LiftPad_Picture_4.jpeg'];
+    const GALLERY = ['/LiftPad_Picture_0.png','/LiftPad_Picture_1.png','/LiftPad_Picture_2.png','/LiftPad_Picture_3.JPG','/LiftPad_Picture_4.jpeg'];
     const carouselAutoplayMs = 3000;         // ms between slides (0 to disable)
     const carouselGapPx = 12;                // gap between tiles in px
     const mobileHeight = 192;                // px height on mobile
