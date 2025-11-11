@@ -85,14 +85,14 @@ export default function LiftPadPro() {
                 // moved to clones after -> snap to real first
                 node.style.transition = 'none';
                 setCurrentIndex(startIndex);
-                const _unused = node.offsetHeight; // force reflow (linter-friendly)
+                // const _unused = node.offsetHeight; // force reflow (linter-friendly)
                 node.style.transition = '';
             }
             if (currentIndex < startIndex) {
                 // moved to clones before -> snap to last real
                 node.style.transition = 'none';
                 setCurrentIndex(startIndex + n - 1);
-                const _unused = node.offsetHeight; // force reflow (linter-friendly)
+                // const _unused = node.offsetHeight; // force reflow (linter-friendly)
                 node.style.transition = '';
             }
         }
